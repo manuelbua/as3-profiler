@@ -48,7 +48,7 @@ Now let's fake some work and feed the profiler with some data:
 
 The profiler should show some signs of life, like the following screenshots:
 
-	![The profiler in action](http://i.imgur.com/fEP51aj.png)
+	![profiler_in_action](http://i.imgur.com/fEP51aj.png "The profiler in action")
 
 And this is it!
 Another useful thing the profiler can do is *grouping*, so that you can group different code fragments belonging to your most logical schema, by wrapping the same ProfileNode around the various different code fragments: here i'm grouping math operations by their type, just to keep things organized a bit:
@@ -90,6 +90,6 @@ Another useful thing the profiler can do is *grouping*, so that you can group di
 
 Now the graph should look somewhat better:
 
-	![Grouped calls](http://i.imgur.com/YaReT3y.png)
+	![profiler_grouped_calls](http://i.imgur.com/YaReT3y.png "Grouped calls")
 
 That's all there is to it, hope it will be useful!
